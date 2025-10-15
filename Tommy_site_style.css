@@ -1,0 +1,26 @@
+body {
+  background-color: rgb(60, 60, 60);
+}
+
+h1 {
+  color: greenyellow;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.maincontainer {
+/*  border-style: solid;
+  border-color: blue;*/
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.subcontainer {
+/*  border-style: solid;
+  border-color: green;*/
+  text-align: center;
+}
